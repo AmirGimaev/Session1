@@ -15,11 +15,13 @@ namespace ГимаевДЭ.Windows
             InitializeComponent();
         }
 
+
         // Срабатывает по окончанию инициализации окна.
         private void WindowIsLoaded(object sender, RoutedEventArgs e)
         {
             UpdateData();
         }
+
 
         // Срабатывет при выборе типа фильтрации.
         private void SelectFilter(object sender, EventArgs e)
@@ -27,11 +29,13 @@ namespace ГимаевДЭ.Windows
             UpdateData();
         }
 
+
         // Срабатывает при выборе вида сортировки.
         private void SelectSort(object sender, EventArgs e)
         {
             UpdateData();
         }
+
 
 
         /// <summary>
