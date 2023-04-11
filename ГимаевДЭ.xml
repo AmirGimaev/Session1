@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ГимаевДЭ</name>
+    </assembly>
+    <members>
+        <member name="T:ГимаевДЭ.Windows.ProductList">
+            <summary>
+            Логика взаимодействия для окна ProductList.xaml
+            </summary>
+            <summary>
+            ProductList
+            </summary>
+        </member>
+        <member name="M:ГимаевДЭ.Windows.ProductList.SortProducts(System.Collections.Generic.List{ГимаевДЭ.Products}@)">
+            <summary>
+            Сортровка списка продуктов по цене.
+            </summary>
+            <param name="products">Ссылка на экземпляр, хранящий список продуктов.</param>
+        </member>
+        <member name="M:ГимаевДЭ.Windows.ProductList.FilterProducts(System.Collections.Generic.List{ГимаевДЭ.Products}@)">
+            <summary>
+            Фильрация списка продуктов по скидке.
+            </summary>
+            <param name="products">Ссылка на экземпляр, хранящий список продуктов.</param>
+        </member>
+        <member name="M:ГимаевДЭ.Windows.ProductList.UpdateData">
+            <summary>
+            Выводит данные из таблицы Products со фильтрацией и сортировкой.
+            </summary>
+        </member>
+        <member name="M:ГимаевДЭ.Windows.ProductList.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ГимаевДЭ.App">
+            <summary>
+            Логика взаимодействия для App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:ГимаевДЭ.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:ГимаевДЭ.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:ГимаевДЭ.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:ГимаевДЭ.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:ГимаевДЭ.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>
